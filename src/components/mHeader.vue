@@ -17,6 +17,9 @@
         methods: {
             getSearch(){
                 this.$router.push('/search')
+            },
+            goBack(){
+                console.log(111111);
             }
         }
     }
